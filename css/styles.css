@@ -1,0 +1,130 @@
+:root {
+    --primary-text-color: rgba(0, 0, 0, 0.8);
+    --title-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-text-color: #2196F3;
+    --accent-color: #2196F3;
+    --primary-bg-color: #E5E5E5;
+    --secondary-bg-color: #F5F4FA;
+    --header-bg-color: #FFFFFF;
+    --footer-bg-color: #2F303A;
+    --client-color: #AFB1B8;
+}
+
+.site-header {
+    background-color: var(--accent-color);
+    width: 1600px;
+    height: 81px;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--title-text-color);
+}
+
+.logo:hover {
+    color: var(--accent-text-color);
+}
+
+.link {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.link:hover {
+    color: var(--accent-text-color);
+}
+
+.email{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--accent-text-color);
+}
+
+.tel{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--secondary-text-color);
+}
+
+.hero{
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+}
+
+.text{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.secondary-function{
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+h1{
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.name{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.position{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+footer{
+    background-color: var(--footer-bg-color);
+}
+
+.copyright{
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    line-height: 2;
+}
+
+.button{
+    color: var(--title-text-color);
+    background-color: var(--secondary-bg-color);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+}
+
+.button:hover{
+    color: var(--header-bg-color);
+    background-color: var(--accent-color);
+}
+
+ul{
+    list-style: none;
+}
+
+.client{
+    color: var(--client-color);
+}
+
