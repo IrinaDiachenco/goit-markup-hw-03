@@ -200,7 +200,7 @@ h1 {
     margin-right: 30px;
 }
 
-.project {
+.portfolio {
     width: 1170px;
     height: 1360px;
     left: 215px;
@@ -212,19 +212,41 @@ h1 {
     background-color: darkorange;
 }
 
-.project-item {
-    width: 370px;
-    height: 404px;
-    left: 615px;
-    top: 696px;
+.project {
+    width: 1170px;
+    height: 1360px;
+    left: 215px;
+    top: 174px;
+    margin-right: 0px;
+    margin-bottom: 0px;
     margin-left: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0cm;
     display: flex;
     flex-wrap: wrap;
+}
+
+.project-item {
+    width: calc((100% - 60px)/3);
+    height: 404px;
+    left: 615px;
+    top: 262px;
+    margin-left: 0px;
+    padding-left: 0px;
+    display: flex;
+   
     outline: 2px solid aqua;
 }
 
 .project-item-nav {
-
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 262px;
+    margin-left: 0px;
+    padding-left: 0px;
+    outline: 2px solid aqua;
 }
 
 footer{
