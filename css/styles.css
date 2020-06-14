@@ -127,6 +127,7 @@ p {
 
 .function-item {
     display: flex;
+    margin: 30px;
 }
 
 .secondary-function {
