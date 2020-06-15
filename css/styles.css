@@ -243,16 +243,20 @@ h1 {
     padding-left: 0px;
     display: flex;
     flex-wrap: wrap;  
-    outline: 2px solid aqua;
 }
 
 .project-item-nav {
     width: calc((100% - 60px)/3);
     height: 404px;
-    
+    margin-right: 30px;
+    margin-bottom: 30px;
     margin-left: 0px;
     padding-left: 0px;
     outline: 2px solid aqua;
+}
+
+.project-item-nav:nth-child(3n) {
+    margin-right: 0px;
 }
 
 footer{
