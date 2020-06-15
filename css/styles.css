@@ -192,11 +192,18 @@ h1 {
     height: 182px;
     left: 215px;
     top: 2395px;
+    display: flex; 
+    justify-content: stretch;
     background-color: darkkhaki;
 }
 
 .customers-item {
+    width: 1170px;
+    height: 182px;
+    left: 215px;
+    top: 2395px;
     display: flex; 
+    justify-content: space-between;
     margin-right: 30px;
 }
 
