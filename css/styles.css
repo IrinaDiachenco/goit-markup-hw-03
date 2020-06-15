@@ -44,7 +44,7 @@ ul {
 }
 
 .site-header {
-    background-color: var(--accent-color);
+    background-color: darkcyan
     width: 1600px;
     height: 81px;
 }
@@ -62,8 +62,14 @@ ul {
 }
 
 .site-nav-main {
+    width: 1170px;
     display: flex;
     }
+
+.site-nav-main1 {
+    display: flex;
+    justify-content: center;
+}
 
 .site-nav-link {
     margin-right: 52px;
@@ -89,6 +95,7 @@ ul {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    margin-right: 30px;
     color: var(--accent-text-color);
 }
 
@@ -259,34 +266,43 @@ h1 {
     margin-right: 0px;
 }
 
-footer{
+footer {
     background-color: var(--footer-bg-color);
 }
 
-.copyright{
+.copyright {
     font-family: Roboto, sans-serif;
     font-size: 12px;
     line-height: 2;
 }
 
-.button{
+.buttons {
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
     color: var(--title-text-color);
     background-color: var(--secondary-bg-color);
     font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
-    display: flex;
-    align-items: stretch;
-
+    margin-right: 9px;
 }
 
-.button:hover{
+.buttons:last-child {
+    margin-right: 0px;
+}
+
+.button:hover {
     color: var(--header-bg-color);
     background-color: var(--accent-color);
 }
 
-ul{
+ul {
     list-style: none;
 }
 
