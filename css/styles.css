@@ -21,18 +21,7 @@ html {
     box-sizing: inherit;
 }
 
-a,
-img,
-h1,
-h2,
-h3,
-p,
-li,
-ul {
- margin-top: 0px;
- margin-bottom: 0px;
- margin-right: 0px;
-}
+
 
 .container {
     width: 1230px;
@@ -164,12 +153,20 @@ ul {
     height: 386px;
     left: 215px;
     top: 1119px;
+   
     background-color: brown;
-    margin-right: 30px;
+    
 }
 
 .doing-item {
     display: flex;
+    margin-right: 30px;
+    padding: 0px;
+}
+
+.box {
+     margin: 0px;
+     margin-right: 30px;
 }
 
 .team {
