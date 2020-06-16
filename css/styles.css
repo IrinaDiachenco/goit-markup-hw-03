@@ -131,21 +131,32 @@ ul {
 .functions {
     width: 1170px;
     height: 251px;
-    left: 215px;
-    top: 774px;
     background-color: blue;
+    margin-bottom: 94px;
+    padding-bottom: 0px;
 }
 
 .function-item {
     display: flex;
-    margin: 30px;
+    justify-content: stretch;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 0px;
 }
 
 .secondary-function {
+    width: 270px;
+    height: 16px;
     font-family: Roboto, sans-serif;
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
+    margin-bottom: 10px;
+}
+
+.text {
+    width: 270px;
+    height: 75px;
 }
 
 .doing {
