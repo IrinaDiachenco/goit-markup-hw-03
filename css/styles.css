@@ -188,6 +188,11 @@ html {
     margin-right: 30px;
 }
 
+.social-link {
+    display: flex;
+    padding-left: 0px;
+}
+
 h1 {
     font-family: Roboto, sans-serif;
     font-weight: bold;
