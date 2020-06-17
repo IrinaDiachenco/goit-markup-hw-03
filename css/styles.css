@@ -21,6 +21,11 @@ html {
     box-sizing: inherit;
 }
 
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .container {
     width: 1230px;
     padding-left: 15px;
@@ -185,11 +190,11 @@ html {
 }
 
 .team {
-    width: 1600px;
-    height: 702px;
-    left: 0px;
-    top: 1599px;
+    width: 1170px;
+    height: 516px;
     background-color: coral;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .team-item {
@@ -230,9 +235,9 @@ h1 {
 
 .customers {
     width: 1170px;
-    height: 182px;
-    left: 215px;
-    top: 2395px;
+    height: 370px;
+    padding-top: 94px;
+    padding-bottom: 94px;
     display: flex; 
     justify-content: stretch;
     background-color: darkkhaki;
@@ -240,12 +245,12 @@ h1 {
 
 .customers-item {
     width: 1170px;
-    height: 182px;
-    left: 215px;
-    top: 2395px;
+    height: 370px;
     display: flex; 
     justify-content: space-between;
     margin-right: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .portfolio {
