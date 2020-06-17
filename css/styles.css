@@ -21,8 +21,6 @@ html {
     box-sizing: inherit;
 }
 
-
-
 .container {
     width: 1230px;
     padding-left: 15px;
@@ -53,6 +51,7 @@ html {
 .site-nav-header {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
 }
 
 .site-nav-main {
@@ -61,6 +60,7 @@ html {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 0px;
+    margin-left: 85px;
     }
 
 .site-nav-main1 {
@@ -68,6 +68,7 @@ html {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 0px;
+    margin-left: auto;
 }
 
 .site-nav-main .item:not(:last-child) {
@@ -339,7 +340,16 @@ ul {
     list-style: none;
 }
 
-.client{
+.client {
     color: var(--client-color);
 }
 
+.footer-container {
+    display: flex;
+    margin-top: 94px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
