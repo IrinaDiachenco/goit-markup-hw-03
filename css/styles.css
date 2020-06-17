@@ -35,7 +35,7 @@ html {
 .site-header {
     background-color: darkcyan
     width: 1600px;
-    height: 81px;
+    height: 80px;
 }
 
 .logo {
@@ -50,22 +50,32 @@ html {
     color: var(--accent-text-color);
 }
 
-.site-nav-main {
-    width: 1170px;
+.site-nav-header {
     display: flex;
+    align-items: center;
+}
+
+.site-nav-main {
+    width: 1070px;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
     }
 
 .site-nav-main1 {
     display: flex;
-    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
 }
 
-.site-nav-link {
+.site-nav-main .item:not(:last-child) {
     margin-right: 52px;
 }
 
-.site-nav-link:not(:last-child) {
-    margin-right: 0px;
+.site-nav-main1 .item + .item{
+   margin-left: 30px;
 }
 
 .link {
@@ -84,7 +94,6 @@ html {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    margin-right: 30px;
     color: var(--accent-text-color);
 }
 
@@ -94,6 +103,11 @@ html {
     font-size: 14px;
     line-height: 1.14;
     color: var(--secondary-text-color);
+}
+
+.site-nav-main1 .item {
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .hero-container {
