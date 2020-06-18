@@ -11,6 +11,10 @@
     --client-color: #AFB1B8;
 }
 
+a {
+    text-decoration: none;
+}
+
 html {
     box-sizing: border-box;
 }
@@ -36,7 +40,6 @@ h1 {
 }
 
 .site-header {
-    background-color: darkcyan
     width: 1600px;
     height: 80px;
 }
@@ -50,6 +53,10 @@ h1 {
 }
 
 .logo:hover {
+    color: var(--accent-text-color);
+}
+
+.logo-web {
     color: var(--accent-text-color);
 }
 
@@ -121,7 +128,6 @@ h1 {
     height: 600px;
     left: 0px;
     top: 80px;
-    background-color: var(--accent-color);
 }
 
 .hero {
@@ -135,12 +141,12 @@ h1 {
     font-family: Roboto, sans-serif;
     font-size: 14px;
     line-height: 1.71;
+    color: var(--secondary-text-color);
 }
 
 .functions {
     width: 1170px;
     height: 251px;
-    background-color: blue;
     margin-bottom: 94px;
     padding-bottom: 0px;
 }
@@ -163,6 +169,17 @@ h1 {
     margin-bottom: 10px;
 }
 
+.secondary-function1 {
+    width: 270px;
+    height: 16px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--header-bg-color);
+    background: rgba(47, 48, 58, 0.8);
+}
+
 .text {
     width: 270px;
     height: 75px;
@@ -173,9 +190,6 @@ h1 {
     height: 386px;
     left: 215px;
     top: 1119px;
-   
-    background-color: brown;
-    
 }
 
 .doing-item {
@@ -192,7 +206,6 @@ h1 {
 .team {
     width: 1170px;
     height: 516px;
-    background-color: coral;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -231,6 +244,7 @@ h1 {
     font-family: Roboto, sans-serif;
     font-size: 16px;
     line-height: 1.19;
+    color: var(--secondary-text-color);
 }
 
 .customers {
@@ -240,7 +254,6 @@ h1 {
     padding-bottom: 94px;
     display: flex; 
     justify-content: stretch;
-    background-color: darkkhaki;
 }
 
 .customers-item {
@@ -262,7 +275,6 @@ h1 {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
-    background-color: darkorange;
 }
 
 .project {
@@ -298,21 +310,55 @@ h1 {
     margin-bottom: 30px;
     margin-left: 0px;
     padding-left: 0px;
-    outline: 2px solid aqua;
 }
 
 .project-item-nav:nth-child(3n) {
     margin-right: 0px;
 }
 
+.text-project {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--secondary-text-color);
+}
+
 footer {
     background-color: var(--footer-bg-color);
+}
+
+.footer-text {
+    color: var(--header-bg-color);
+}
+
+.footer-text-item {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--header-bg-color);
+}
+
+footer .email {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+footer .tel {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+footer .logo {
+    color: var(--header-bg-color);
 }
 
 .copyright {
     font-family: Roboto, sans-serif;
     font-size: 12px;
     line-height: 2;
+    color: var(--header-bg-color);
 }
 
 .buttons {
