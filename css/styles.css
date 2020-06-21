@@ -34,8 +34,9 @@ h1 {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 0px;
-    margin-right: 0px;
     margin-bottom: 0px;
 }
 
@@ -43,7 +44,7 @@ h1 {
     width: 1600px;
     height: 80px;
     background-color: var(--header-bg-color);
-}
+    }
 
 .logo {
     font-family: Raleway, sans-serif;
@@ -64,7 +65,7 @@ h1 {
 .site-nav-header {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    padding-top: 32px;
 }
 
 .site-nav-main {
@@ -80,8 +81,8 @@ h1 {
     display: flex;
     margin-top: 0px;
     margin-bottom: 0px;
+    margin-left: 0px;
     padding-left: 0px;
-    margin-left: auto;
 }
 
 .site-nav-main .item:not(:last-child) {
@@ -89,8 +90,8 @@ h1 {
 }
 
 .site-nav-main1 .item + .item{
-   margin-left: 30px;
-}
+    margin-left: 30px;
+ }
 
 .link {
     font-family: Roboto, sans-serif;
@@ -162,14 +163,28 @@ h1 {
     height: 251px;
     margin-bottom: 94px;
     padding-bottom: 0px;
+    padding-left: 215px;
+    padding-right: 215px;
 }
 
-.function-item {
+.function-items {
     display: flex;
     justify-content: stretch;
     margin-right: 30px;
     margin-bottom: 30px;
     padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.function-item {
+    margin-right: 30px;
+}
+
+.function-logo {
+    width: 270px;
+    height: 120px;
+    left: 815px;
+    background: var(--secondary-bg-color);
 }
 
 .secondary-function {
@@ -203,6 +218,8 @@ h1 {
     height: 386px;
     left: 215px;
     top: 1119px;
+    padding-left: 215px;
+    padding-right: 215px;
 }
 
 .doing-item {
@@ -221,6 +238,8 @@ h1 {
     height: 516px;
     padding-top: 94px;
     padding-bottom: 94px;
+    padding-left: 215px;
+    padding-right: 215px;
 }
 
 .team-item {
@@ -294,6 +313,8 @@ h1 {
     padding-bottom: 94px;
     display: flex; 
     justify-content: stretch;
+    padding-left: 215px;
+    padding-right: 215px;
    
 }
 
@@ -316,6 +337,8 @@ h1 {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
+    padding-left: 215px;
+    padding-right: 215px;
 }
 
 .project {
@@ -393,11 +416,12 @@ footer .logo {
     color: var(--header-bg-color);
 }
 
-.buttons {
-    padding-left: 0px;
-    padding-right: 0px;
+.portfolio .buttons {
     display: flex;
     justify-content: center;
+    width: 610px;
+    height: 40px;
+    padding-right: 0px;
 }
 
 .button {
