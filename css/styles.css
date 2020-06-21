@@ -36,10 +36,8 @@ html {
 }
 
 .site-header {
-    width: 1600px;
-    height: 80px;
-    background-color: var(--header-bg-color);
-    }
+    
+}
 
 .logo {
     font-family: Raleway, sans-serif;
@@ -63,9 +61,14 @@ h1 {
 }
 
 .site-nav-header {
+    width: 1600px;
+    height: 80px;
+    background-color: var(--header-bg-color);
     display: flex;
     align-items: center;
     padding-top: 32px;
+    padding-left: 215px;
+    padding-right: 215px;
 }
 
 .site-nav-main {
