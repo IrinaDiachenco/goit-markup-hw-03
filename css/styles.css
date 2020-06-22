@@ -368,7 +368,7 @@ h1 {
 }
 
 .portfolio {
-    width: 1170px;
+    width: 1600px;
     height: 1360px;
     left: 215px;
     top: 174px;
@@ -460,9 +460,13 @@ footer .logo {
 .portfolio .buttons {
     display: flex;
     justify-content: center;
-    width: 610px;
+    min-width: 610px;
     height: 40px;
-    padding-right: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-left: 495px;
+    padding-right: 494px;
 }
 
 .button {
