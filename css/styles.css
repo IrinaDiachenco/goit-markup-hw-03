@@ -425,6 +425,9 @@ h1 {
     margin-bottom: 30px;
     margin-left: 0px;
     padding-left: 0px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
 }
 
 .project-item-nav:nth-child(3n) {
