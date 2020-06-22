@@ -148,9 +148,13 @@ h1 {
     line-height: 1.36;
     color: var(--header-bg-color);
     display: flex;
-    justify-content: center;
+    text-align: center;
     padding-top: 200px;
     padding-bottom: 280px;
+    padding-right: 452px;
+    padding-left: 452px;
+    min-width: 696px;
+    height: 120px;
 }
 
 .button-hero {
@@ -161,8 +165,10 @@ h1 {
     font-weight: bold;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
+    width: 200px;
+    height: 50px;
+    display: inline-flex;
+    text-align: center;
 }
 
 .text {
