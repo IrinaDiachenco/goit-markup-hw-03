@@ -36,7 +36,9 @@ html {
 }
 
 .site-header {
-    
+    width: 1600px;
+    height: 80px;
+    background-color: var(--header-bg-color);
 }
 
 .logo {
@@ -72,20 +74,23 @@ h1 {
 }
 
 .site-nav-main {
-    width: 1070px;
+    width: 294px;
     display: flex;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 0px;
     margin-left: 85px;
-    }
+    margin-right: 0px;
+    margin-right: 0px;
+}
 
 .site-nav-main1 {
     display: flex;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 0px;
+    
     padding-left: 0px;
+    margin-left: 305px;
 }
 
 .site-nav-main .item:not(:last-child) {
