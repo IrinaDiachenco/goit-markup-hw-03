@@ -263,6 +263,7 @@ h1 {
     padding-bottom: 94px;
     padding-left: 215px;
     padding-right: 215px;
+    background-color: var( --secondary-bg-color:);
 }
 
 .title-team {
@@ -281,6 +282,8 @@ h1 {
 
 .team-item-every {
     margin-right: 30px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .social-link {
@@ -365,6 +368,15 @@ h1 {
     margin-right: 30px;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.customers-item .item {
+    width: 170px;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
 }
 
 .portfolio {
