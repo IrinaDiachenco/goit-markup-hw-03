@@ -159,7 +159,8 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 0px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .text {
@@ -226,20 +227,19 @@ h1 {
 
 .doing-section {
     padding-top: 94px;
-    margin-bottom: 115px;
 }
 
 .doing-title {
     min-width: 376px;
-    margin-bottom: 71px;
     display: flex;
     justify-content: center;
 }
 
 .doing-item {
     display: flex;
-    margin-right: 30px;
     padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .box {
@@ -276,7 +276,6 @@ h1 {
 .social-link {
     display: flex;
     padding-left: 0px;
-    
 }
 
 h1 {
@@ -333,7 +332,7 @@ h1 {
     display: flex;
     justify-content: stretch;
     align-content: center;
-    padding-top: 94px;
+    padding-top: 188px;
     padding-bottom: 94px;
 }
 
@@ -366,6 +365,7 @@ h1 {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
+    padding-bottom: 50px;
 }
 
 .project-section {
@@ -384,6 +384,8 @@ h1 {
     padding-left: 0px;
     display: flex;
     flex-wrap: wrap;  
+    margin-top: 0px;
+    padding-bottom: 94px;
 }
 
 .project-item-nav {
@@ -421,6 +423,7 @@ footer {
     font-size: 14px;
     line-height: 1.14;
     color: var(--header-bg-color);
+    padding-top: 72px;
 }
 
 footer .email {
@@ -433,13 +436,7 @@ footer .tel {
 
 footer .logo {
     color: var(--header-bg-color);
-}
-
-.copyright {
-    font-family: Roboto, sans-serif;
-    font-size: 12px;
-    line-height: 2;
-    color: var(--header-bg-color);
+    padding-top: 60px;
 }
 
 .portfolio-section .buttons {
@@ -449,6 +446,8 @@ footer .logo {
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
+    padding-top: 94px;
+    
 }
 
 .button {
