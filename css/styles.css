@@ -293,10 +293,6 @@ h1 {
     
 }
 
-.social-link1 {
-    color: var(--client-color);
-}
-
 h1 {
     font-family: Roboto, sans-serif;
     font-weight: bold;
@@ -476,7 +472,7 @@ footer .logo {
     color: var(--header-bg-color);
 }
 
-.portfolio .buttons {
+.portfolio-section .buttons {
     display: flex;
     justify-content: center;
     min-width: 611px;
