@@ -128,18 +128,11 @@ h1 {
     background: rgba(47, 48, 58, 0.8);
 }
 
-
-.hero {
+.hero-tittle {
     font-family: Roboto, sans-serif;
     font-weight: 900;
     line-height: 1.36;
     color: var(--header-bg-color);
-    width: 696px;
-    height: 120px;
-    padding-top: 200px;
-    padding-bottom: 280px;
-    margin-right: auto;
-    margin-left: auto;
     text-align: center;
 }
 
@@ -155,10 +148,15 @@ h1 {
     height: 50px;
 }
 
-.button-hero-button {
-    display: flex;
+.hero {
+    display: inline-flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-content: center;
+    width: 696px;
+    height: 200px;
+    padding-bottom: 200px;
+    padding-top: 200px;
 }
 
 .text {
@@ -225,6 +223,7 @@ h1 {
 
 .doing-section {
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .doing-title {
@@ -247,6 +246,7 @@ h1 {
 
 .team-section {
     padding-top: 94px;
+    padding-bottom: 94px;
     background-color: var( --secondary-bg-color:);
 }
 
@@ -254,7 +254,7 @@ h1 {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    margin-top: 94px;
+    margin-top: 0px;
 }
 
 
@@ -330,7 +330,7 @@ h1 {
     display: flex;
     justify-content: stretch;
     align-content: center;
-    padding-top: 188px;
+    padding-top: 94px;
     padding-bottom: 94px;
 }
 
@@ -443,7 +443,6 @@ footer .logo {
     margin-right: 0px;
     margin-bottom: 0px;
     padding-top: 94px;
-    
 }
 
 .button {
