@@ -199,8 +199,7 @@ h1 {
 }
 
 .secondary-function1 {
-    width: 270px;
-    height: 16px;
+    width: 100%;
     font-family: Roboto, sans-serif;
     font-weight: bold;
     font-size: 14px;
