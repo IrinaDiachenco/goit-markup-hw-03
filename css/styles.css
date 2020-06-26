@@ -173,15 +173,10 @@ h1 {
 
 .function-items {
     display: flex;
-    justify-content: stretch;
-    margin-right: 30px;
+    justify-content: space-between;
     margin-bottom: 30px;
     padding-bottom: 0px;
     padding-left: 0px;
-}
-
-.function-item {
-    margin-right: 30px;
 }
 
 .function-logo {
@@ -235,6 +230,7 @@ h1 {
 
 .doing-item {
     display: flex;
+    justify-content: space-between;
     padding: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -242,7 +238,6 @@ h1 {
 
 .box {
      margin: 0px;
-     margin-right: 30px;
 }
 
 .team-section {
@@ -261,9 +256,10 @@ h1 {
 
 .team-item {
     display: flex; 
+    justify-content: space-between;
     padding: 0px;
     margin: 0px;
-    margin-right: 30px;
+    
 }
 
 .team-item-every {
