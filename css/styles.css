@@ -134,6 +134,7 @@ h1 {
     line-height: 1.36;
     color: var(--header-bg-color);
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .button-hero {
@@ -149,14 +150,13 @@ h1 {
 }
 
 .hero {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
-    width: 696px;
-    height: 200px;
+    width: 100%;
     padding-bottom: 200px;
     padding-top: 200px;
+    align-items: center;
 }
 
 .text {
@@ -230,6 +230,7 @@ h1 {
     min-width: 376px;
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .doing-item {
@@ -317,7 +318,7 @@ h1 {
 }
 
 .text-project-secondary {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -408,6 +409,12 @@ footer {
 
 .footer .container {
     display: flex;
+    justify-content: space-between;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-text {
@@ -415,7 +422,7 @@ footer {
 }
 
 .footer-text-item {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -435,6 +442,16 @@ footer .logo {
     color: var(--header-bg-color);
 }
 
+.footer-button {
+    color: var(--header-bg-color);
+    background-color: var(--accent-color);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
 .portfolio-section .buttons {
     display: flex;
     justify-content: center;
@@ -448,7 +465,7 @@ footer .logo {
 .button {
     color: var(--title-text-color);
     background-color: var(--secondary-bg-color);
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
