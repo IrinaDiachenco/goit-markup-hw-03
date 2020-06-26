@@ -344,7 +344,6 @@ h1 {
 .customers-item {
     display: flex; 
     justify-content: space-between;
-    margin-right: 30px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
