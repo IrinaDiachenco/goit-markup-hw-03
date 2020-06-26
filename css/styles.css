@@ -174,10 +174,8 @@ h1 {
 .function-items {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
     padding-bottom: 0px;
     padding-left: 0px;
-    margin-right: 30px;
 }
 
 .function-logo {
@@ -235,7 +233,6 @@ h1 {
     padding: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-right: 30px;
 }
 
 .box {
@@ -261,7 +258,6 @@ h1 {
     justify-content: space-between;
     padding: 0px;
     margin: 0px;
-    
 }
 
 .team-item-every {
@@ -344,6 +340,7 @@ h1 {
     justify-content: space-between;
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-left: 0px;
 }
 
 .customers-item .item {
