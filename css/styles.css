@@ -421,7 +421,6 @@ footer {
     font-size: 14px;
     line-height: 1.14;
     color: var(--header-bg-color);
-    padding-top: 72px;
 }
 
 footer .email {
@@ -434,7 +433,6 @@ footer .tel {
 
 footer .logo {
     color: var(--header-bg-color);
-    padding-top: 60px;
 }
 
 .portfolio-section .buttons {
